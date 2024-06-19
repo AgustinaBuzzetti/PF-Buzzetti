@@ -12,8 +12,8 @@ header{
 }
 
 .descubre{
-    background-color: rgb(28, 63, 96);
     color: aliceblue;
+    background-color: rgb(28, 63, 96);
     width: 15rem;
     height: 3rem;
     margin-top: 2rem;
@@ -21,4 +21,10 @@ header{
 
 .margins{
     margin-top: 65px;
+}
+
+.pie{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(28, 63, 96);
 }
