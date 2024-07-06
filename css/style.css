@@ -1,3 +1,10 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 header{
     background-color:rgb(28, 63, 96) ;
     position: fixed;
@@ -19,6 +26,29 @@ header{
     margin-top: 2rem;
 }
 
+.descubre:hover{
+    color: rgb(210, 218, 224);
+    background-color: rgb(10, 29, 46);
+    text-decoration: none;
+}
+
+.proyecto{
+    padding-top: 45px;
+}
+
+.mapa{
+    padding-top: 150px;
+    height: 100vh;
+    display: flex;
+}
+
+.area{
+    background-color: rgb(28, 63, 96);
+    color: aliceblue;
+    height: 90px;
+    width: 300px;
+}
+
 .margins{
     margin-top: 65px;
 }
@@ -31,4 +61,19 @@ header{
 
 .cape-coral{
     margin-top: 9rem;
+}
+
+.nosotros{
+    padding-top: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+}
+
+.contacto{
+    padding-top: 135px;
+    height: 520px;
 }
