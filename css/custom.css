@@ -50,8 +50,9 @@ header {
 
 .mapa {
   padding-top: 150px;
-  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mapa .area {
   background-color: rgb(28, 63, 96);
@@ -114,15 +115,82 @@ header {
 }
 
 .contacto {
-  padding-top: 135px;
+  padding-top: 165px;
   height: 520px;
+  display: flex;
+  justify-content: center;
+}
+.contacto .redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pie {
   width: 100%;
   height: 60px;
   background-color: rgb(28, 63, 96);
-  margin-top: 65px;
+  margin-top: 115px;
+}
+
+@media (max-width: 992px) {
+  .mapa {
+    padding-top: 155px;
+  }
+  .mapa .distancia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mapa img {
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .items-index {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .contacto .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapa {
+    padding-top: 155px;
+  }
+  .mapa .distancia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mapa img {
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .cape-coral {
+    display: flex;
+    flex-direction: column;
+  }
+  .lehigh {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
