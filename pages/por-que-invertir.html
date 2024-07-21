@@ -30,6 +30,10 @@
     
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Link Java -->
+
+    <script defer src="../js/main.js"></script>
+
     <!-- Link CSS -->
 
     <link rel="stylesheet" href="../css/custom.css">
@@ -68,6 +72,31 @@
   </header>
 
     <main>
+
+      <div class="carrusel animate__animated animate__fadeInDown img-fluid">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imágenes/carrusel1.jpg" class="d-block w-100" alt="c1">
+            </div>
+            <div class="carousel-item">
+              <img src="../imágenes/carrusel2.jpeg" class="d-block w-100" alt="c2">
+            </div>
+            <div class="carousel-item">
+              <img src="../imágenes/carrusel3.jpg" class="d-block w-100" alt="c3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
         <section class="m-auto d-flex justify-content-center">
             <div class="container row cape-coral align-items-center">
                 <div class="col col-sm-12 col-md-8 col-lg-6" data-aos="fade-right">
@@ -102,6 +131,39 @@
                 </div>
             </div>
         </section>
+
+        <h1 class="tiposLotes" data-aos="fade-down">Tipos de Lotes en los que Construimos</h1>
+
+        <div class="lotesContenedor">
+
+          <div class="lotes" data-aos="fade-down">
+              <h2>Lotes Secos</h2>
+              <img class="img__lotes" src="../imágenes/lotes secos.png" alt="secos">
+              <div id="contenido1" class="hidden">
+                <p>Son aquellos Lotes que su parte trasera colinda con otro inmueble y no con el agua.
+                  Tanto Cape Coral como  Lehigh Acres son ciudades surcadas por numerosos Canales que le dan su encanto especial, aunque hay muchos potenciales compradores que no logran acceder a dichos inmuebles por razones economicas. Sin perjuicio de esto inversores pueden optar por comprar una propiedad mas accesible que no necesariamente de a un canal.</p>
+              </div>
+              <button onclick='mostrarOcultar("contenido1" , this)' class="btn-primary" form="contenido1" >Ver más</button>
+          </div>
+          <div class="lotes" data-aos="fade-down">
+              <h2>Canales sin salida al mar</h2>
+              <img class="img__lotes" src="../imágenes/lotes sin salida al mar.png" alt="sin salida">
+              <div id="contenido2" class="hidden">
+                <p>Son aquellos Lotes que en su parte trasera o patio poseen un canal que les brinda una belleza única. Estos canales no permite acceder al mar, aunque los propietarios de dichos inmuebles si pueden poseer pequeñas embarcaciones de pesca o tipo Kayak.
+                  Las construcciones que se realizan sobre canales no Navegables están apuntadas a residentes que priorizan la belleza de tener vista al agua, pero que no necesariamente están interesados en deportes náuticos o en una salida al mar.</p>
+              </div>
+              <button onclick="mostrarOcultar('contenido2' , this)" class="btn-primary" form="contenido2" >Ver más</button>
+          </div>
+          <div class="lotes" data-aos="fade-down">
+              <h2>Canales con salida al mar</h2>
+              <img class="img__lotes" src="../imágenes/lotes con salida al mar.png" alt="con salida">
+              <div id="contenido3" class="hidden">
+                <p>Son aquellos Lotes que en su parte trasera o patio poseen un canal, a través del cual se puede acceder mediante embarcaciones con o sin motor, al golfo de México.
+                  Las construcciones que se realizan sobre canales Navegables están apuntadas a residentes que priorizan accesibilidad a Mar abierto y los deportes acuáticos.</p>
+              </div>
+              <button onclick="mostrarOcultar('contenido3' , this)" class="btn-primary" form="contenido3">Ver más</button>
+          </div>
+
     </main>
 
     <!-- Pie de la página -->

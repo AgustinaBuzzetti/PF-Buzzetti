@@ -12,5 +12,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .img__redes{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 1.5rem;
+
+            .redes__img{
+                width: 50px;
+            }
+        }
     }
 }

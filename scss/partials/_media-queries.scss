@@ -19,6 +19,24 @@
         }
 
     }
+
+    .cape-coral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lehigh{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lotesContenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 576px){
@@ -38,6 +56,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 4rem;
         }
 
     }
@@ -71,5 +90,9 @@
     .lehigh{
         display: flex;
         flex-direction: column;
+    }
+
+    .tiposLotes{
+        text-align: center;
     }
 }

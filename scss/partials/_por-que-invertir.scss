@@ -2,6 +2,67 @@
 @use "./header";
 @use "./footer";
 
+
+.carrusel{
+    padding-top: 150px;
+    width: 90%;
+    margin: auto;
+}
+
 .cape-coral{
-    margin-top: 9rem;
+    margin-top: 4rem;
+}
+
+.tiposLotes{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 63, 96);
+    color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+
+.lotesContenedor{
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    .lotes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    
+        h2{
+            margin-bottom: 1.5rem;
+            font-size: 20px;
+            color: rgb(28, 63, 96);
+        }
+
+        .img__lotes{
+            width: 300px;
+        }
+    }
+    
+    .hidden {
+        display: none;
+        margin-top: 1rem;
+    }
+    
+    .btn-primary {
+        margin-top: 2rem;
+        background-color: rgb(28, 63, 96);
+        color: rgb(255, 255, 255);
+
+        &:hover {
+            background-color: rgb(0, 4, 7);
+            color: rgb(219, 213, 213);
+        }
+    }
+
 }
