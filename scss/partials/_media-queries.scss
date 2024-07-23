@@ -10,10 +10,9 @@
             align-items: center;
         }
 
-        img{
-            margin: auto;
-            margin-top: 40px;
-            width: 400px;
+        .flip-card{
+            margin-top: 190px;
+            margin-bottom: 90px;
             display: flex;
             align-items: center;
         }
@@ -64,6 +63,8 @@
     .mapa{
 
         padding-top: 155px;
+        display: flex;
+        flex-direction: column;
 
         .distancia{
             display: flex;
@@ -73,11 +74,15 @@
         }
 
         img{
-            margin: auto;
-            margin-top: 40px;
             width: 300px;
+        }
+
+        .flip-card{
+            margin-top: 170px;
+            margin-bottom: 90px;
             display: flex;
             align-items: center;
+            justify-content: center;
         }
 
     }

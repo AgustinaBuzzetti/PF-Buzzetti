@@ -1,5 +1,7 @@
+@import "./variables";
+
 header{
-    background-color: rgb(28, 63, 96);
+    background-color: $color-principal;
     position: fixed;
     width: 100%;
     z-index: 9999;

@@ -1,6 +1,7 @@
 @use "./reset";
 @use "./header";
 @use "./footer";
+@import "./variables";
 
 .inicio{
     background-image: url(../imágenes/backround-inicio.jpg);
@@ -10,14 +11,14 @@
 }
 
 .descubre{
-    color: rgb(255, 255, 255);
-    background-color: rgb(28, 63, 96);
+    color: $color-letras;
+    background-color: $color-principal;
     width: 15rem;
     height: 3rem;
     margin-top: 2rem;
     &:hover{
-        color: rgb(210, 218, 224);
-        background-color: rgb(10, 29, 46);
+        color: $color-letras-hover;
+        background-color: $color-principal-hover;
         text-decoration: none;
     }
 }

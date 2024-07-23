@@ -1,6 +1,7 @@
 @use "./reset";
 @use "./header";
 @use "./footer";
+@import "./variables";
 
 
 .carrusel{
@@ -9,8 +10,11 @@
     margin: auto;
 }
 
-.cape-coral{
+.cape-coral , .lehigh{
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tiposLotes{
@@ -18,8 +22,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(28, 63, 96);
-    color: rgb(255, 255, 255);
+    background-color: $color-principal;
+    color: $color-letras;
     height: 200px;
 }
 
@@ -41,7 +45,7 @@
         h2{
             margin-bottom: 1.5rem;
             font-size: 20px;
-            color: rgb(28, 63, 96);
+            color: $color-principal;
         }
 
         .img__lotes{
@@ -56,12 +60,12 @@
     
     .btn-primary {
         margin-top: 2rem;
-        background-color: rgb(28, 63, 96);
-        color: rgb(255, 255, 255);
+        background-color: $color-principal;
+        color: $color-letras;
 
         &:hover {
-            background-color: rgb(0, 4, 7);
-            color: rgb(219, 213, 213);
+            background-color: $color-principal-hover;
+            color: $color-letras-hover;
         }
     }
 
