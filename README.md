@@ -1,20 +1,18 @@
 
-# Project Title
+# FSWLand Real Estate Investments
 
-
-FSWLand Real Estate Investments
 
 Bienvenido a FSWLand Real Estate Investments, su empresa confiable, transparente y honesta en el mercado inmobiliario de Cape Coral, Florida.
 
 
 
-Descripción
+# Descripción
 
 FSWLand es una empresa inmobiliaria dedicada al desarrollo, construcción y venta de propiedades en la costa oeste de Florida. Nuestro objetivo es desarrollar, construir y vender al menos 400 viviendas en Cape Coral y Lehigh Acres entre 2025 y 2035. Trabajamos con lotes secos, lotes con canales que no salen al mar y lotes con canales que salen al mar.
 
 
 
-Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 -HTML5: Estructura y contenido del sitio web.
 
